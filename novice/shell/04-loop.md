@@ -198,7 +198,7 @@ the `head` and `tail` combination selects lines 81-100 from whatever file is bei
 > and won't be asked to read the file `red dragon.dat`.
 > 
 > We can make our script a little bit more robust
-> by [quoting](../../gloss.html#shell-quoting) our use of the variable:
+> by [quoting](../../gloss.html#quoting) our use of the variable:
 > 
 > ~~~
 > for filename in *.dat
@@ -264,7 +264,7 @@ mv unicorn.dat original-unicorn.dat
 > isn't foolproof, but it's a handy way to see what's going to happen when
 > you're still learning how loops work.
 
-#### Nelle's Pipeline: Processing Files
+### Nelle's Pipeline: Processing Files
 
 Nelle is now ready to process her data files.
 Since she's still learning how to use the shell,

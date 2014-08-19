@@ -208,7 +208,7 @@ to show how the simplest ones work, we'll use the directory tree shown below.
 
 <img src="img/find-file-tree.svg" alt="File Tree for Find Example" />
 
-Vlad's home directory contains one file called `notes.txt` and four subdirectories:
+Nelle's home directory contains one file called `notes.txt` and four subdirectories:
 `thesis` (which is sadly empty),
 `data` (which contains two files `one.txt` and `two.txt`),
 a `tools` directory that contains the programs `format` and `stats`,
@@ -422,7 +422,7 @@ $ grep FE $(find . -name '*.pdb' -print)
 > modern programming languages, Python included, have borrowed a lot of
 > ideas from it, and imitation is also the sincerest form of praise.
 
-#### Conclusion
+### Conclusion
 
 The Unix shell is older than most of the people who use it. It has
 survived so long because it is one of the most productive programming

@@ -136,9 +136,9 @@ $ ls
 ~~~
 {:class="in"}
 ~~~
-bin          data      mail       music
-notes.txt    papers    pizza.cfg  solar
-solar.pdf    swc
+creatures  molecules           pizza.cfg
+data       north-pacific-gyre  solar.pdf
+Desktop    notes.txt           writing
 ~~~
 {:class="out"}
 
@@ -154,9 +154,9 @@ $ ls -F
 ~~~
 {:class="in"}
 ~~~
-bin/         data/     mail/      music/
-notes.txt    papers/   pizza.cfg  solar/
-solar.pdf    swc/
+creatures/  molecules/           pizza.cfg
+data/       north-pacific-gyre/  solar.pdf
+Desktop/    notes.txt            writing/
 ~~~
 {:class="out"}
 
@@ -265,9 +265,9 @@ $ ls
 ~~~
 {:class="in"}
 ~~~
-bin/         data/     mail/      music/
-notes.txt    papers/   pizza.cfg  solar/
-solar.pdf    swc/
+creatures  molecules           pizza.cfg
+data       north-pacific-gyre  solar.pdf
+Desktop    notes.txt           writing
 ~~~
 {:class="out"}
 
@@ -354,9 +354,10 @@ $ ls -F -a
 ~~~
 {:class="in"}
 ~~~
-./           ../       bin/       data/
-mail/        music/    notes.txt  papers/
-pizza.cfg    solar/    solar.pdf    swc/
+./          Desktop/             pizza.cfg
+../         molecules/           solar.pdf
+creatures/  north-pacific-gyre/  writing/
+data/       notes.txt
 ~~~
 {:class="out"}
 
